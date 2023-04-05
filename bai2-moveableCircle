@@ -1,0 +1,15 @@
+public class MoveableCircle implements Moveable{
+private int radius;
+private MovePoint center;
+@Override
+public void moveUp() {
+this.center.moveLeft();
+}
+@Override
+public void moveCown() {
+this.center.moveCown();
+}
+@Override
+public void moveLeft() {
+this.center.moveLeft();
+}
