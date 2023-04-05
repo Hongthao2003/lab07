@@ -1,0 +1,7 @@
+interface moveable {
+public void moveUp();
+public void moveCown();
+public void moveLeft();
+public void moveRight();
+}
+
