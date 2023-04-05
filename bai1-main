@@ -1,0 +1,13 @@
+public class main {
+    public static void main(String[] args) {
+        MayBay maybay = new MayBay();
+        maybay.layVanToc();
+        
+        XeOto oto = new XeOto();
+        oto.layVanToc();
+        
+        XeDap xedap = new XeDap();
+        xedap.layVanToc();
+        
+    }
+}
