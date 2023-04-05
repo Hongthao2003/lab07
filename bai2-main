@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+
+MovePoint mp=new MovePoint(1, 2, 5, 10);
+MoveableCircle mc=new MoveableCircle(1, mp);
+mc.moveCown();
+mc.moveLeft();
+mc.moveRight();
+mc.moveUp();
+}
+
+}
