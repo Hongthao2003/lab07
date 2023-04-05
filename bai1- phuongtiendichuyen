@@ -1,0 +1,24 @@
+public abstract class PhuongTienDiChuyen {
+  protected String loaiPhuongTien;
+  protected HangSanXuat hangSanXuat;
+  
+  public PhuongTienDiChuyen(){
+  }
+
+    public PhuongTienDiChuyen(String loaiPhuongTien, HangSanXuat hangSanXuat) {
+        this.loaiPhuongTien = loaiPhuongTien;
+        this.hangSanXuat = hangSanXuat;
+    }
+  
+public String layTenHangSanXuat(){
+      return null;
+}
+ public void batDau(){
+ }
+ 
+ public void tangToc(){
+ }
+ public void dungLai(){
+ }
+ 
+}
