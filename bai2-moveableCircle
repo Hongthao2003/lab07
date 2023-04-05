@@ -13,3 +13,11 @@ this.center.moveCown();
 public void moveLeft() {
 this.center.moveLeft();
 }
+public MoveableCircle(int radius, MovePoint center) {
+this.radius = radius;
+this.center = center;
+}
+@Override
+public void moveRight() {
+this.center.moveRight();
+}
