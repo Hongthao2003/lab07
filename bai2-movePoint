@@ -1,0 +1,30 @@
+public class MovePoint implements Movéable{
+public int x,y;
+public int xSpeed,ySpeed;
+public MovePoint(int x, int y, int xSpeed, int ySpeed) {
+this.x = x;
+this.y = y;
+this.xSpeed = xSpeed;
+this.ySpeed = ySpeed;
+}
+@Override
+public String toString() {
+return "MovePoint [x=" + x + ", y=" + y + ", xSpeed=" + xSpeed + ", ySpeed=" + ySpeed + "]";
+}
+@Override
+public void moveUp() {
+System.out.println("len");
+}
+@Override
+public void moveCown() {
+System.out.println("uong");
+}
+@Override
+public void moveLeft() {
+System.out.println("qua trai");
+}
+@Override
+public void moveRight() {
+System.out.println("qua phai");
+}
+}
