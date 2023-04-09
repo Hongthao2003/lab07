@@ -1,4 +1,4 @@
-public class MovePoint implements Movéable{
+public class MovePoint implements Moveable{
 public int x,y;
 public int xSpeed,ySpeed;
 public MovePoint(int x, int y, int xSpeed, int ySpeed) {
